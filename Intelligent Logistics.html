@@ -4,6 +4,14 @@
 <meta charset="utf-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <title>Intelligent Logistics — Logistics analytics that put your shipping data to work</title>
+<meta name="ext-resource-dependency" content="assets/uc-01-wasteful.png" data-resource-id="uc1" />
+<meta name="ext-resource-dependency" content="assets/uc-02-address.png" data-resource-id="uc2" />
+<meta name="ext-resource-dependency" content="assets/uc-03-pod.png" data-resource-id="uc3" />
+<meta name="ext-resource-dependency" content="assets/uc-04-delayed.png" data-resource-id="uc4" />
+<meta name="ext-resource-dependency" content="assets/uc-05-ontime.png" data-resource-id="uc5" />
+<meta name="ext-resource-dependency" content="assets/uc-06-exception.png" data-resource-id="uc6" />
+<meta name="ext-resource-dependency" content="assets/uc-07-analysis.png" data-resource-id="uc7" />
+<meta name="ext-resource-dependency" content="assets/uc-08-dashboard.png" data-resource-id="uc8" />
 <template id="__bundler_thumbnail" data-bg-color="#0B1220">
   <svg viewBox="0 0 1200 800" xmlns="http://www.w3.org/2000/svg">
     <rect x="450" y="250" width="300" height="300" rx="40" fill="none" stroke="#5BD4C0" stroke-width="14"/>
@@ -673,7 +681,7 @@
       <a href="#use-cases">Use cases</a>
       <a href="#about">Company</a>
       <a href="#voices">Customers</a>
-      <a href="#resources">Resources</a>
+      <a href="#resources">Customer Success</a>
       <a href="#contact">Contact</a>
     </div>
     <div class="nav-cta">
@@ -712,36 +720,12 @@
     </div>
 
     <div class="hero-visual">
-      <div class="shot shot-hero filled" id="shotHero" onclick="pickShot('hero')">
-        <img alt="IL tracking overview dashboard" data-slot="hero" src="assets/screenshot-tracking-overview.png">
-        <div class="shot-inner">
-          <div class="shot-frame">
-            <div class="shot-dots"><span></span><span></span><span></span></div>
-            <div class="shot-tab">Tracking Overview</div>
-          </div>
-          <div class="shot-cta">
-            <svg viewBox="0 0 24 24" fill="none" width="32" height="32"><path d="M12 5v14M5 12h14" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/></svg>
-            <div class="shot-label">Drop product screenshot</div>
-            <div class="shot-sub">PNG or JPG · click to upload</div>
-          </div>
-        </div>
-        <button class="shot-replace" onclick="event.stopPropagation(); pickShot('hero')">Replace</button>
-      </div>
-      <div class="shot shot-hero shot-hero-alt filled" id="shotHero2" onclick="pickShot('hero2')">
-        <img alt="IL shipments detail" data-slot="hero2" src="assets/screenshot-tracking-summary.png">
-        <div class="shot-inner">
-          <div class="shot-frame">
-            <div class="shot-dots"><span></span><span></span><span></span></div>
-            <div class="shot-tab">Shipments · Detail view</div>
-          </div>
-          <div class="shot-cta">
-            <svg viewBox="0 0 24 24" fill="none" width="32" height="32"><path d="M12 5v14M5 12h14" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/></svg>
-            <div class="shot-label">Drop secondary screenshot</div>
-            <div class="shot-sub">PNG or JPG · click to upload</div>
-          </div>
-        </div>
-        <button class="shot-replace" onclick="event.stopPropagation(); pickShot('hero2')">Replace</button>
-      </div>
+      <figure class="shot shot-hero filled" id="shotHero">
+        <img alt="IL tracking overview dashboard" src="assets/screenshot-tracking-overview.png">
+      </figure>
+      <figure class="shot shot-hero shot-hero-alt filled" id="shotHero2">
+        <img alt="IL shipments detail" src="assets/screenshot-tracking-summary.png">
+      </figure>
     </div>
   </div>
 </header>
@@ -760,7 +744,7 @@
       </div>
       <div class="about-stats reveal">
         <div class="stat">
-          <div class="n"><em>300+</em></div>
+          <div class="n"><em>Hundreds</em></div>
           <div class="lbl">Enterprise customers</div>
         </div>
         <div class="stat">
@@ -768,7 +752,7 @@
           <div class="lbl">Analyzed shipping spend</div>
         </div>
         <div class="stat">
-          <div class="n"><em>40+</em><span class="unit">carriers</span></div>
+          <div class="n"><em>Dozens</em><span class="unit">of carriers</span></div>
           <div class="lbl">Parcel · LTL · freight</div>
         </div>
         <div class="stat">
@@ -1016,7 +1000,7 @@
 <section class="resources" id="resources">
   <div class="container">
     <div class="section-head reveal">
-      <span class="section-label">Resources</span>
+      <span class="section-label">Customer Success</span>
       <h2 class="res-title">Expert support built into<br><em>every subscription</em>.</h2>
       <p class="section-lede">Technology is only part of the value. Every customer works with a Dedicated Customer Success Manager — a long-term partner embedded in your team.</p>
     </div>
@@ -1182,19 +1166,10 @@
         <svg width="16" height="16" viewBox="0 0 24 24" fill="none"><path d="M6 6l12 12M6 18L18 6" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/></svg>
       </button>
     </div>
-    <div class="modal-screenshot">
-      <div class="shot shot-uc" id="ucShot" onclick="pickShot('uc-' + currentUC)">
-        <img alt="Use case screenshot" src="data:image/svg+xml;utf8,%3Csvg xmlns='http://www.w3.org/2000/svg'/%3E">
-        <div class="shot-inner">
-          <div class="shot-frame"><div class="shot-dots"><span></span><span></span><span></span></div><div class="shot-tab" id="ucShotTab"></div></div>
-          <div class="shot-cta">
-            <svg viewBox="0 0 24 24" fill="none" width="28" height="28"><path d="M12 5v14M5 12h14" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/></svg>
-            <div class="shot-label">Drop IL screenshot</div>
-            <div class="shot-sub">PNG or JPG · click to upload</div>
-          </div>
-        </div>
-        <button class="shot-replace" onclick="event.stopPropagation(); pickShot('uc-' + currentUC)">Replace</button>
-      </div>
+    <div class="modal-screenshot" id="ucShotWrap">
+      <figure class="shot shot-uc filled" id="ucShot">
+        <img alt="Use case screenshot" id="ucShotImg" src="assets/screenshot-tracking-overview.png">
+      </figure>
     </div>
     <div class="modal-body" id="ucBody"></div>
     <div class="modal-foot">
@@ -1206,8 +1181,6 @@
     </div>
   </div>
 </div>
-
-<input type="file" id="fileInput" accept="image/*" style="display:none">
 
 <!-- ================= TWEAKS ================= -->
 <div class="tweaks" id="tweaks">
@@ -1411,9 +1384,13 @@ const UCS = {
        impact: ['Faster issue resolution', 'Improved service levels', 'Reduced downstream customer escalations'],
        sourced: true },
   7: { title: 'Service Level &amp; <em>Mode Analysis</em>', tag: 'Ensure you’re paying for the right service — every time.',
-       helps: null, impact: null, sourced: false },
+       helps: ['Identify shipments that could move on a slower, lower-cost service', 'Surface mode mismatches across parcel, LTL, and freight', 'Track effective discount and net charge by service and lane'],
+       impact: ['Reduce overspend on premium services that aren’t required', 'Right-size mode selection based on real delivery patterns'],
+       sourced: true },
   8: { title: 'Interactive <em>Dashboards</em>', tag: 'A command center for your entire shipment network.',
-       helps: null, impact: null, sourced: false },
+       helps: ['Monitor volume, carrier mix, and exceptions in one view', 'Drill from network-level KPIs down to individual shipments', 'Individual customization of each dashboard', 'Share live views with operations, finance, and leadership'],
+       impact: ['Faster, data-driven operational decisions', 'A single source of truth across logistics stakeholders', 'Less time building reports, more time acting on insight'],
+       sourced: true },
 };
 let currentUC = null;
 function openUC(n) {
@@ -1422,7 +1399,19 @@ function openUC(n) {
   document.getElementById('ucNumLabel').textContent = String(n).padStart(2,'0');
   document.getElementById('ucTitle').innerHTML = d.title;
   document.getElementById('ucTag').textContent = d.tag;
-  document.getElementById('ucShotTab').textContent = d.title.replace(/<[^>]+>/g,'');
+  // Per-use-case screenshot
+  const R = (window.__resources || {});
+  const ucShots = {
+    1: R.uc1 || 'assets/uc-01-wasteful.png',
+    2: R.uc2 || 'assets/uc-02-address.png',
+    3: R.uc3 || 'assets/uc-03-pod.png',
+    4: R.uc4 || 'assets/uc-04-delayed.png',
+    5: R.uc5 || 'assets/uc-05-ontime.png',
+    6: R.uc6 || 'assets/uc-06-exception.png',
+    7: R.uc7 || 'assets/uc-07-analysis.png',
+    8: R.uc8 || 'assets/uc-08-dashboard.png',
+  };
+  document.getElementById('ucShotImg').src = ucShots[n] || 'assets/screenshot-tracking-overview.png';
   const body = document.getElementById('ucBody');
   if (d.sourced) {
     body.innerHTML = `
@@ -1433,8 +1422,6 @@ function openUC(n) {
     body.innerHTML = `<div class="modal-note">Full use case content coming soon — we’ll walk you through it live. Schedule a demo and we’ll show you how ${d.title.replace(/<[^>]+>/g,'').toLowerCase()} works with your carrier data.</div>`;
     document.getElementById('ucSource').textContent = 'Content pending';
   }
-  // restore screenshot if previously uploaded
-  restoreShot('uc-' + n, document.getElementById('ucShot'));
   document.getElementById('ucModal').classList.add('on');
   document.body.style.overflow = 'hidden';
 }
@@ -1443,52 +1430,6 @@ function closeUC(){
   document.body.style.overflow = '';
 }
 document.addEventListener('keydown', (e) => { if (e.key === 'Escape') closeUC(); });
-
-/* ============== SCREENSHOT PICKER ============== */
-const SHOT_STORE = {};
-function getShotEl(slot) {
-  if (slot === 'hero') return document.getElementById('shotHero');
-  if (slot === 'hero2') return document.getElementById('shotHero2');
-  if (slot.startsWith('uc-')) return document.getElementById('ucShot');
-  return null;
-}
-function restoreShot(slot, el) {
-  const data = SHOT_STORE[slot] || localStorage.getItem('il_shot_' + slot);
-  if (data) {
-    SHOT_STORE[slot] = data;
-    const img = el.querySelector('img');
-    img.src = data;
-    el.classList.add('filled');
-  } else {
-    el.classList.remove('filled');
-    const img = el.querySelector('img');
-    if (img) img.src = 'data:image/svg+xml;utf8,%3Csvg xmlns=\'http://www.w3.org/2000/svg\'/%3E';
-  }
-}
-let pickingFor = null;
-function pickShot(slot) {
-  pickingFor = slot;
-  document.getElementById('fileInput').click();
-}
-document.getElementById('fileInput').addEventListener('change', (e) => {
-  const file = e.target.files[0];
-  if (!file || !pickingFor) return;
-  const reader = new FileReader();
-  reader.onload = () => {
-    const data = reader.result;
-    SHOT_STORE[pickingFor] = data;
-    try { localStorage.setItem('il_shot_' + pickingFor, data); } catch(e){}
-    const el = getShotEl(pickingFor);
-    if (el) {
-      el.querySelector('img').src = data;
-      el.classList.add('filled');
-    }
-  };
-  reader.readAsDataURL(file);
-  e.target.value = '';
-});
-// restore hero on load
-setTimeout(() => { restoreShot('hero', document.getElementById('shotHero')); restoreShot('hero2', document.getElementById('shotHero2')); }, 0);
 
 /* ============== UTIL ============== */
 function scrollToId(id){
