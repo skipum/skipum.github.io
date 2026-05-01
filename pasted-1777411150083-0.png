@@ -3,18 +3,18 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>On-time performance reporting — Intelligent Logistics</title>
-<meta name="description" content="Measure what your carriers actually deliver.">
-<link rel="canonical" href="https://intelligentlogistics.io/use-cases/on-time-performance-reporting/index.html">
+<title>Interactive dashboards — Intelligent Logistics</title>
+<meta name="description" content="A command center for your entire shipment network.">
+<link rel="canonical" href="https://intelligentlogistics.io/use-cases/interactive-dashboards/index.html">
 <meta property="og:type" content="website">
-<meta property="og:title" content="On-time performance reporting — Intelligent Logistics">
-<meta property="og:description" content="Measure what your carriers actually deliver.">
-<meta property="og:image" content="../../assets/uc-05-ontime.png">
+<meta property="og:title" content="Interactive dashboards — Intelligent Logistics">
+<meta property="og:description" content="A command center for your entire shipment network.">
+<meta property="og:image" content="../../assets/uc-08-dashboard.png">
 <meta property="og:site_name" content="Intelligent Logistics">
 <meta name="twitter:card" content="summary_large_image">
-<meta name="twitter:title" content="On-time performance reporting — Intelligent Logistics">
-<meta name="twitter:description" content="Measure what your carriers actually deliver.">
-<meta name="twitter:image" content="../../assets/uc-05-ontime.png">
+<meta name="twitter:title" content="Interactive dashboards — Intelligent Logistics">
+<meta name="twitter:description" content="A command center for your entire shipment network.">
+<meta name="twitter:image" content="../../assets/uc-08-dashboard.png">
 <link rel="icon" type="image/png" href="../../assets/il-mark.png">
 <link rel="apple-touch-icon" href="../../assets/il-mark.png">
 <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -56,9 +56,9 @@
 </div>
 <section class="page-hero">
   <div class="container">
-    <div class="crumbs"><a href="../../index.html">Home</a><span class="sep">/</span><a href="../index.html">Use cases</a><span class="sep">/</span><span>05</span></div>
-    <h1>On-time <em>performance</em> reporting.</h1>
-    <p class="lede">Measure what your carriers actually deliver.</p>
+    <div class="crumbs"><a href="../../index.html">Home</a><span class="sep">/</span><a href="../index.html">Use cases</a><span class="sep">/</span><span>08</span></div>
+    <h1>Interactive <em>dashboards</em>.</h1>
+    <p class="lede">A command center for your entire shipment network.</p>
     <div class="actions">
       <a class="btn btn-accent" href="../../contact/index.html">Schedule a demo <svg viewBox="0 0 20 20" fill="none"><path d="M4 10h12m0 0l-4-4m4 4l-4 4" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"/></svg></a>
       <a class="btn" href="../index.html">All use cases</a>
@@ -69,34 +69,34 @@
 <section>
   <div class="container">
     <div class="prose">
-      <aside class="prose-rail">Use case 05 / 08</aside>
+      <aside class="prose-rail">Use case 08 / 08</aside>
       <div class="prose-body">
-        <p>Carrier-published OTP and lane-level reality rarely match. IL measures actual delivery against committed transit time on every shipment, then rolls it up to the carrier, service, lane, or origin DC for the conversation that matters.</p>
+        <p>IL ships with role-based dashboards for ops, finance, and leadership — and lets every user customize their own. Volume, carrier mix, exceptions, spend, and service performance, in one view, drillable to the shipment.</p>
 
-        <figure class="uc-screenshot"><img src="../../assets/uc-05-ontime.png" alt="On-time performance reporting — IL screenshot"></figure>
+        <figure class="uc-screenshot"><img src="../../assets/uc-08-dashboard.png" alt="Interactive dashboards — IL screenshot"></figure>
 
         <div class="uc-twocol">
           <div class="uc-col">
             <h4>What IL helps you do</h4>
-            <ul><li>Compare actual delivery vs. carrier commitment, shipment by shipment</li><li>Identify underperforming lanes, services, or suppliers</li><li>Track effective transit time vs. published transit time</li><li>Support carrier negotiations with hard performance data</li></ul>
+            <ul><li>Monitor volume, carrier mix, and exceptions in one view</li><li>Drill from network-level KPIs down to individual shipments</li><li>Individual customization of each dashboard</li><li>Share live views with operations, finance, and leadership</li></ul>
           </div>
           <div class="uc-col">
             <h4>Business impact</h4>
-            <ul><li>Improve carrier accountability</li><li>Optimize service selection by lane and origin</li><li>Support strategic sourcing and contract renewal decisions</li></ul>
+            <ul><li>Faster, data-driven operational decisions</li><li>A single source of truth across logistics stakeholders</li><li>Less time building reports, more time acting on insight</li></ul>
           </div>
         </div>
 
         <h3>Why teams adopt this <em>first</em>.</h3>
-        <p>Procurement teams use IL's OTP rollups to negotiate refunds and contract terms. Operations teams use the lane-level view to redirect volume toward the carriers actually hitting their commitments.</p>
+        <p>Customers describe IL as "the dashboard the executive team finally agrees on." When ops, finance, and leadership all start a meeting from the same view, the conversation moves from "what does the data say?" to "what are we going to do?"</p>
 
         <div class="uc-pager">
-          <a class="prev" href="../delayed-package-monitoring/index.html">
-            <span class="label">← Previous · 04</span>
-            <span class="title">Delayed package <em>monitoring</em></span>
+          <a class="prev" href="../service-level-and-mode-analysis/index.html">
+            <span class="label">← Previous · 07</span>
+            <span class="title">Service level &amp; <em>mode analysis</em></span>
           </a>
-          <a class="next" href="../exceptions-monitoring/index.html">
-            <span class="label">Next · 06 →</span>
-            <span class="title">Exceptions <em>monitoring</em></span>
+          <a class="next" href="../wasteful-spend-monitoring/index.html">
+            <span class="label">Next · 01 →</span>
+            <span class="title">Wasteful <em>spend</em> monitoring</span>
           </a>
         </div>
       </div>

@@ -3,18 +3,18 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>On-time performance reporting — Intelligent Logistics</title>
-<meta name="description" content="Measure what your carriers actually deliver.">
-<link rel="canonical" href="https://intelligentlogistics.io/use-cases/on-time-performance-reporting/index.html">
+<title>Service level and mode analysis — Intelligent Logistics</title>
+<meta name="description" content="Ensure you're paying for the right service — every time.">
+<link rel="canonical" href="https://intelligentlogistics.io/use-cases/service-level-and-mode-analysis/index.html">
 <meta property="og:type" content="website">
-<meta property="og:title" content="On-time performance reporting — Intelligent Logistics">
-<meta property="og:description" content="Measure what your carriers actually deliver.">
-<meta property="og:image" content="../../assets/uc-05-ontime.png">
+<meta property="og:title" content="Service level and mode analysis — Intelligent Logistics">
+<meta property="og:description" content="Ensure you're paying for the right service — every time.">
+<meta property="og:image" content="../../assets/uc-07-analysis.png">
 <meta property="og:site_name" content="Intelligent Logistics">
 <meta name="twitter:card" content="summary_large_image">
-<meta name="twitter:title" content="On-time performance reporting — Intelligent Logistics">
-<meta name="twitter:description" content="Measure what your carriers actually deliver.">
-<meta name="twitter:image" content="../../assets/uc-05-ontime.png">
+<meta name="twitter:title" content="Service level and mode analysis — Intelligent Logistics">
+<meta name="twitter:description" content="Ensure you're paying for the right service — every time.">
+<meta name="twitter:image" content="../../assets/uc-07-analysis.png">
 <link rel="icon" type="image/png" href="../../assets/il-mark.png">
 <link rel="apple-touch-icon" href="../../assets/il-mark.png">
 <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -56,9 +56,9 @@
 </div>
 <section class="page-hero">
   <div class="container">
-    <div class="crumbs"><a href="../../index.html">Home</a><span class="sep">/</span><a href="../index.html">Use cases</a><span class="sep">/</span><span>05</span></div>
-    <h1>On-time <em>performance</em> reporting.</h1>
-    <p class="lede">Measure what your carriers actually deliver.</p>
+    <div class="crumbs"><a href="../../index.html">Home</a><span class="sep">/</span><a href="../index.html">Use cases</a><span class="sep">/</span><span>07</span></div>
+    <h1>Service level &amp; <em>mode analysis</em>.</h1>
+    <p class="lede">Ensure you're paying for the right service — every time.</p>
     <div class="actions">
       <a class="btn btn-accent" href="../../contact/index.html">Schedule a demo <svg viewBox="0 0 20 20" fill="none"><path d="M4 10h12m0 0l-4-4m4 4l-4 4" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"/></svg></a>
       <a class="btn" href="../index.html">All use cases</a>
@@ -69,34 +69,34 @@
 <section>
   <div class="container">
     <div class="prose">
-      <aside class="prose-rail">Use case 05 / 08</aside>
+      <aside class="prose-rail">Use case 07 / 08</aside>
       <div class="prose-body">
-        <p>Carrier-published OTP and lane-level reality rarely match. IL measures actual delivery against committed transit time on every shipment, then rolls it up to the carrier, service, lane, or origin DC for the conversation that matters.</p>
+        <p>Premium services are easy to default to and hard to audit. IL identifies shipments that consistently arrive faster than the service they were paid for — and the lanes where a slower, cheaper mode would meet customer commitments just as well.</p>
 
-        <figure class="uc-screenshot"><img src="../../assets/uc-05-ontime.png" alt="On-time performance reporting — IL screenshot"></figure>
+        <figure class="uc-screenshot"><img src="../../assets/uc-07-analysis.png" alt="Service level and mode analysis — IL screenshot"></figure>
 
         <div class="uc-twocol">
           <div class="uc-col">
             <h4>What IL helps you do</h4>
-            <ul><li>Compare actual delivery vs. carrier commitment, shipment by shipment</li><li>Identify underperforming lanes, services, or suppliers</li><li>Track effective transit time vs. published transit time</li><li>Support carrier negotiations with hard performance data</li></ul>
+            <ul><li>Identify shipments that could move on a slower, lower-cost service</li><li>Surface mode mismatches across parcel, LTL, and freight</li><li>Track effective discount and net charge by service and lane</li><li>Quantify the savings of right-sizing service mix</li></ul>
           </div>
           <div class="uc-col">
             <h4>Business impact</h4>
-            <ul><li>Improve carrier accountability</li><li>Optimize service selection by lane and origin</li><li>Support strategic sourcing and contract renewal decisions</li></ul>
+            <ul><li>Reduce overspend on premium services that aren't required</li><li>Right-size mode selection based on real delivery patterns</li><li>Improve carrier scorecards with hard service-level data</li></ul>
           </div>
         </div>
 
         <h3>Why teams adopt this <em>first</em>.</h3>
-        <p>Procurement teams use IL's OTP rollups to negotiate refunds and contract terms. Operations teams use the lane-level view to redirect volume toward the carriers actually hitting their commitments.</p>
+        <p>Mode analysis is the highest-leverage report for shippers running mixed-mode networks. The savings show up in the next billing cycle, not next year.</p>
 
         <div class="uc-pager">
-          <a class="prev" href="../delayed-package-monitoring/index.html">
-            <span class="label">← Previous · 04</span>
-            <span class="title">Delayed package <em>monitoring</em></span>
-          </a>
-          <a class="next" href="../exceptions-monitoring/index.html">
-            <span class="label">Next · 06 →</span>
+          <a class="prev" href="../exceptions-monitoring/index.html">
+            <span class="label">← Previous · 06</span>
             <span class="title">Exceptions <em>monitoring</em></span>
+          </a>
+          <a class="next" href="../interactive-dashboards/index.html">
+            <span class="label">Next · 08 →</span>
+            <span class="title">Interactive <em>dashboards</em></span>
           </a>
         </div>
       </div>
